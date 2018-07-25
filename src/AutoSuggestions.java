@@ -26,6 +26,7 @@ public class AutoSuggestions {
 		
 		}
 		
+		//have a great interview
 		
 		//driver.findElement((By.xpath("//div[.='javascript tutorial']"))).click();
 		System.out.println(ele.get(count-1).getText());
