@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[f1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f1 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f3 is passed]]>
+    </line>
+    <line>
+      <![CDATA[f2 is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2018-07-07T12:03:34Z" finished-at="2018-07-07T12:03:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2018-07-07T12:03:34Z" finished-at="2018-07-07T12:03:34Z">
+      <class name="SampleTestNG">
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="16" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="15" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="e()[pri:2, instance:SampleTestNG@6d00a15d]" name="e" duration-ms="17" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f2 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="d()[pri:2, instance:SampleTestNG@6d00a15d]" name="d" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f3 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[f1 is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- SampleTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
