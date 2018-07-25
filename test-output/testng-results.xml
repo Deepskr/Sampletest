@@ -1,83 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[f1 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f1 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f1 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f1 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f1 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f3 is passed]]>
-    </line>
-    <line>
-      <![CDATA[f2 is passed]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68" started-at="2018-07-07T12:03:34Z" finished-at="2018-07-07T12:03:34Z">
+  <suite name="Suite" duration-ms="28050" started-at="2018-07-25T17:27:12Z" finished-at="2018-07-25T17:27:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68" started-at="2018-07-07T12:03:34Z" finished-at="2018-07-07T12:03:34Z">
-      <class name="SampleTestNG">
-        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="16" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+    <test name="Chrometest" duration-ms="15771" started-at="2018-07-25T17:27:12Z" finished-at="2018-07-25T17:27:28Z">
+      <class name="Design.DateandTime">
+        <test-method status="PASS" signature="getFormatedDateTime(java.lang.String)[pri:0, instance:Design.DateandTime@6500df86]" name="getFormatedDateTime" is-config="true" duration-ms="15758" started-at="2018-07-25T22:57:12Z" finished-at="2018-07-25T22:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[f1 is passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="15" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
+        </test-method> <!-- getFormatedDateTime -->
+      </class> <!-- Design.DateandTime -->
+    </test> <!-- Chrometest -->
+    <test name="Firefoxtest" duration-ms="28050" started-at="2018-07-25T17:27:12Z" finished-at="2018-07-25T17:27:40Z">
+      <class name="Design.DateandTime">
+        <test-method status="PASS" signature="getFormatedDateTime(java.lang.String)[pri:0, instance:Design.DateandTime@1ed4004b]" name="getFormatedDateTime" is-config="true" duration-ms="28044" started-at="2018-07-25T22:57:12Z" finished-at="2018-07-25T22:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[f1 is passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[f1 is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="e()[pri:2, instance:SampleTestNG@6d00a15d]" name="e" duration-ms="17" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[f2 is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- e -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[f1 is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="d()[pri:2, instance:SampleTestNG@6d00a15d]" name="d" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[f3 is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- d -->
-        <test-method status="PASS" signature="f()[pri:0, instance:SampleTestNG@6d00a15d]" name="f" duration-ms="0" started-at="2018-07-07T17:33:34Z" finished-at="2018-07-07T17:33:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[f1 is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- SampleTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getFormatedDateTime -->
+      </class> <!-- Design.DateandTime -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- Suite -->
 </testng-results>
